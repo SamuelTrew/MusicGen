@@ -35,6 +35,8 @@ executables:
     - -with-rtsopts=-N
     dependencies:
     - MusicGen
+    - bytestring
+    - process
 
 tests:
   MusicGen-test:
